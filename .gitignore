@@ -1,0 +1,9 @@
+.chef
+.vagrant
+clients
+cookbooks/apt
+cookbooks/ruby_build
+cookbooks/rbenv
+environments
+nodes
+roles
