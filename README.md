@@ -60,6 +60,7 @@ Railsをインストールして、アプリケーションを作りましょう
 ```
 vagrant@vagrant:~$ bundle config --global jobs 4
 vagrant@vagrant:~$ gem install rails --no-rdoc --no-ri
+vagrant@vagrant:~$ rbenv rehash
 vagrant@vagrant:~$ rails new rails-example
 vagrant@vagrant:~$ cd rails-example
 vagrant@vagrant:~$ rails server --binding 0.0.0.0
